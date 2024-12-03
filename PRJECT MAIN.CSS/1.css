@@ -1,0 +1,54 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+}
+
+.ex1{
+  padding: 5px;
+  width: 70px;
+  text-align: center;
+}
+
+.ex1 a{
+  text-decoration: none;
+  color: white;
+}
+
+i{
+  color: white;
+}
+
+#one{
+  background-color: skyblue;
+}
+
+#two{
+  background-color: purple;
+}
+
+#three{
+  background-color: rgb(79, 128, 158);
+}
+
+#four{
+  background-color: red;
+}
+
+#five{
+  background-color: gold;
+}
+
+@media screen and (max-width: 700px) {
+  div{
+    display: block;
+    margin: 10px;
+  }
+}
